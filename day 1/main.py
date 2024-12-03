@@ -37,7 +37,6 @@ def part2():
     for number in left:
         if not reslist.get(number): continue
         res += reslist[number] * number
-
     print(res)
 
 part2()
